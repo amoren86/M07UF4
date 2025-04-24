@@ -11,13 +11,13 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.release>17</maven.compiler.release>
 		<jakartaee-api-version>10.0.0</jakartaee-api-version>
 		<jakarta-jstl-version>3.0.0</jakarta-jstl-version>
-		<spring-mvc-version>6.1.1</spring-mvc-version>
 		<jersey-version>3.1.6</jersey-version>
-		<war-plugin-version>3.3.2</war-plugin-version>
 		<compiler-plugin-version>3.11.0</compiler-plugin-version>
+		<war-plugin-version>3.3.2</war-plugin-version>
 	</properties>
 
 	<dependencies>
@@ -34,13 +34,6 @@
 			<groupId>org.glassfish.web</groupId>
 			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
 			<version>${jakarta-jstl-version}</version>
-		</dependency>
-
-		<!-- Spring -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>${spring-mvc-version}</version>
 		</dependency>
 
 		<!-- Jersey -->
